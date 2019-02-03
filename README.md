@@ -1,8 +1,8 @@
 # BindingManager
-The idea for application started when using hundred time snippets for binding view with model properties. Enter the Property name and  variable type to generate code from the template eg. "Test int" will use template from file "int.templ".
+The idea behind this app born when I was using for the hundredth time snippets for binding view with model properties. Usage: enter the Property name and variable type to generate code from the template (e.g. "Test int" will use template from file "int.templ").
 
 ## Usage Application:
-If user gives int as a variable type, application will first search in "Templates" folder for the "int.templ" file and if it doesn't find it Manager will use the "auto.templ" file to generate code from the template. We can also leave an empty variable type (eg "Test") and then program will use the "default.templ" as template to generate the code from.
+When a user gives int as a variable type, application will first search in "Templates" folder for the "int.templ" file.  If it won't find any, Manager will use the "auto.templ" file to generate code from the template. It's also possible to leave an empty variable type (e.g. "Test") and then program will use the "default.templ" as template to generate the code from.
 
 ## Possible variables in templates:
 - "__prop\__" - returns the property name (eg. Test)
@@ -15,10 +15,10 @@ Input: "Test int" will return:
 - \_\_type\_\_ - int
 
 ## Fast start:
-1. Launch and close the application
+1. Launch and close the application.
 2. Create the 'auto.templ' and 'default.templ' files in the Templates folder.
 3. Create your own templates.
-4. Generate code in the application
+4. Generate code in the application.
 
 ## Examples of templ files:
 
