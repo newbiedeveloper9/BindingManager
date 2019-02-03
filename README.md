@@ -14,7 +14,7 @@ Input: "Test int" will return:
 - \_\_field\_\_ - _test
 - \_\_type\_\_ - int
 
-## Fast start:
+## Quick start:
 1. Launch and close the application.
 2. Create the 'auto.templ' and 'default.templ' files in the Templates folder.
 3. Create your own templates.
